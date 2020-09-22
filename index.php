@@ -3,6 +3,7 @@
 <?php
     $d=date("d.m.Y H:i");
     echo($d);
+    echo "<img src='https://yt3.ggpht.com/a/AATXAJxgFA7Gy1y4szVT9zNWCIMWO4m0QvHuA1K9qCiNlA=s900-c-k-c0xffffffff-no-rj-mo'>";
 ?>
 <ul id="nav">
     <li><a href="lab1-5-2.php">lab1-1</a>

@@ -1,5 +1,7 @@
 <p> Дата и время:
 <p>
+<body style = "background: url(https://yt3.ggpht.com/a/AATXAJxgFA7Gy1y4szVT9zNWCIMWO4m0QvHuA1K9qCiNlA=s900-c-k-c0xffffffff-no-rj-mo); background-repeat: no-repeat;" >
+</body>
 <?php
     $d=date("d.m.Y H:i");
     echo($d);

@@ -7,9 +7,17 @@
 			<p><INPUT type="submit" name="delete" value="Изменить"></p>
         </FORM>
 <?php
+function my_strtoupper ($string){
+$str=strtolower($string);
+if (strtolower ('ц')!='Ц') $string = strtr(
+$string,
+'абвгдеёжзийклмнорпстуфхцчшщъьыэюя',
+'АБВГДЕЁЖЗИЙКЛМНОРПСТУФХЦЧШЩЪЬЫЭЮЯ');
+return $string;
+};
 $str = trim($_POST["sentence"]);
 echo "Изначальное предложение: ".$str."</br>"; 
-$str =mb_strtoupper($str);
+$str=my_strtoupper($str);
 echo "Изменённое: ".$str; 
 ?>
  </BODY>

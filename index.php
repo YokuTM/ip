@@ -11,5 +11,6 @@
     <li><a href="laba1-5.php">lab1-1.2</a>    
     <li><a href="lab-2-10.php">lab1-2</a>
     <li><a href="lab2-11.php">lab1-3</a>
+    <li><a href="3.6V-10.php">LABA 2</a>
 </ul>
 
